@@ -7,11 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class SpringPetClinicApplication {
+public class sfDiApplication {
 
     public static void main(String[] args) {
 
-        ApplicationContext ctx = SpringApplication.run(SpringPetClinicApplication.class, args);
+        ApplicationContext ctx = SpringApplication.run(sfDiApplication.class, args);
 
         I18nController i18nController = (I18nController) ctx.getBean("i18nController");
         System.out.println(i18nController.getGreeting());
