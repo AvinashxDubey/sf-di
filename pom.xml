@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.springframework.sfdi</groupId>
-    <artifactId>sfDiApplication</artifactId>
+    <artifactId>sf-di</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sfDiApplication</name>
+    <name>sf-di</name>
     <description>blank</description>
     <url/>
     <licenses>
